@@ -106,7 +106,7 @@ export default function TodoApp() {
             <h1 className={`text-4xl font-bold text-center flex-1 ${
               isDarkMode ? 'text-white' : 'text-gray-900'
             }`}>
-              Todo App v3
+              Todo App v4
             </h1>
             <button
               onClick={toggleTheme}
@@ -296,6 +296,7 @@ export default function TodoApp() {
     </div>
   );
 }
+
 
 
 
